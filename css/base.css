@@ -1,0 +1,319 @@
+*,
+*::before,
+*::after {box-sizing: border-box;}
+html,
+body {
+  padding: 0;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #2f2f2f;
+  line-height: 24px;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+p {margin-bottom: 16px;}
+
+/**
+ * Links
+ */
+a {
+  color: #311b92;
+  text-decoration: none;
+  outline: none;
+  transition: all .2s;
+}
+a:hover,
+a:active,
+a:focus {color: #2f2f2f;}
+
+/**
+ * Typography
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  color: #2f2f2f;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+}
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+h6 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.title {
+  padding: 0;
+  margin: 0 0 8px 0;
+  font-weight: 300;
+  color: #311b92;
+}
+.subtitle {
+  padding: 0;
+  margin: 0 0 56px 0;
+  font-weight: 300;
+  color: #6c6c6c;
+}
+
+/**
+ * Helper Classes
+ */
+/* Colors */
+.white {color: #fff !important;}
+.color {color: #311b92;}
+.light-gray {color: #6c6c6c !important;}
+.dark-gray {color: #2f2f2f !important;}
+
+/* Alignment */
+.left-align {text-align: left;}
+.right-align {text-align: right;}
+.center-align {text-align: center;}
+
+/* Spacing */
+.extra-margin {margin: 56px 0 !important;}
+
+/**
+ * Images
+ */
+.img--responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+ * Buttons
+ */
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  background: #311b92;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+  transition: all .2s ease-in-out;
+}
+.button:hover {
+  color: #fff;
+  background: #231367;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.button.selected {color: #fff;}
+
+/**
+ * Form Inputs
+ */
+input,
+textarea {
+  padding: 16px;
+  width: 100%;
+  font-size: 16px;
+  color: #6c6c6c;
+  border: 1px solid rgba(47,47,47,.3);
+  border-radius: 3px;
+}
+input:focus,
+textarea:focus {
+  color: #2f2f2f;
+  background: rgba(47,47,47,.1);
+  border: 1px solid rgba(47,47,47,.6);
+  outline: none;
+}
+input:hover,
+textarea:hover {background: rgba(47,47,47,.1);}
+
+/**
+ *Tooltips
+ */
+.tipper {
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+.tipper-content {
+  position: relative;
+  display: block;
+  float: left;
+  padding: 8px 12px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, .85);
+  border-radius: 4px;
+}
+.tipper-content:after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  width: 0;
+  height: 0;
+  content: " ";
+  pointer-events: none;
+  border: solid transparent;
+  border-width: 10px;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: rgba(0, 0, 0, .85);
+}
+
+/**
+ * Callout Boxes
+ */
+.callout-box {
+  position: relative;
+  padding: 16px;
+  margin: 24px 0;
+  background: #ecf0f1;
+  border-left: 4px solid #6c6c6c;
+}
+.callout-box.co-colored-box {border-left: 4px solid #311b92;}
+.callout-box.co-colored-box h5 {color: #311b92;}
+.callout-box.co-icon-box {padding-left: 75px;}
+.callout-box.co-icon-box i {
+  position: absolute;
+  top: 30px;
+  left: 12px;
+  font-size: 48px;
+  color: #6c6c6c;
+}
+
+/**
+ * Block Quotes
+ */
+blockquote {
+  margin: 0 auto;
+  width: 75%;
+  font-size: 48px;
+  line-height: 56px;
+}
+blockquote i {
+  display: inline-block;
+  padding-top: 16px;
+  font-size: 28px;
+  opacity: .5;
+}
+blockquote .fa-quote-left {float: left;}
+blockquote .fa-quote-right {float: right;}
+blockquote span {
+  display: block;
+  font-size: 24px;
+}
+blockquote span:before {content: "\2013  ";}
+
+/**
+ * Social Media Buttons
+ */
+.social-btn {
+  display: inline-block;
+  padding: 4px 0 0 1px;
+  width: 32px;
+  height: 32px;
+  color: #6c6c6c;
+  text-align: center;
+  background: #ecf0f1;
+  border-radius: 3px;
+}
+.social-btn:hover {color: #fff;}
+.facebook-btn:hover {background: #3b5998;}
+.twitter-btn:hover {background: #00aced;}
+.envelope-btn:hover {background: #2f2f2f;}
+.tumblr-btn:hover {background: #32506d;}
+.instagram-btn:hover {background: #3f729b;}
+.heart-btn:hover {background: #c0392b;}
+.linkedin-btn:hover {background: #007bb6;}
+.vimeo-btn:hover {background: #aad450;}
+.youtube-btn:hover {background: #b00;}
+.google-plus-btn:hover {background: #dd4b39;}
+.flickr-btn:hover {background: #ff0084;}
+.skype-btn:hover {background: #12a5f4;}
+.dropbox-btn:hover {background: #3d9ae8;}
+.thumbs-btn:hover {background: #3b5998;}
+.dribbble-btn:hover {background: #ea4c89;}
+.pinterest-btn:hover {background: #cb2027;}
+.apple-btn:hover {background: #2f2f2f;}
+.windows-btn:hover {background: #00bbf4;}
+.github-btn:hover {background: #2f2f2f;}
+.android-btn:hover {background: #84bc00;}
+.rss-btn:hover {background: #fa9829;}
+.html5-btn:hover {background: #e15403;}
+.css3-btn:hover {background: #006ebc;}
+.twitter-square-btn:hover {background: #00aced;}
+
+/**
+ * Alert Boxes
+ */
+.alert {
+  position: relative;
+  padding: 8px 32px 8px 8px;
+  margin: 8px 0;
+  border-radius: 3px;
+}
+.alert span {font-weight: 400;}
+.alert .close-alert {
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url(../images/close-btn-dark.png);
+  background-size: 12px 12px;
+  opacity: .2;
+  cursor: pointer;
+}
+.alert.congrats {
+  color: #1b954f;
+  background: rgba(39,174,96,.2);
+  border: 1px solid rgba(39,174,96,.4);
+}
+.alert.info {
+  color: #1c6a9d;
+  background: rgba(41,128,185,.2);
+  border: 1px solid rgba(41,128,185,.4);
+}
+.alert.warning {
+  color: #de8c0a;
+  background: rgba(243,156,18,.2);
+  border: 1px solid rgba(243,156,18,.4);
+}
+.alert.danger {
+  color: #af3022;
+  background: rgba(192,57,43,.2);
+  border: 1px solid rgba(192,57,43,.4);
+}

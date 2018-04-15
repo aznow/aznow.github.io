@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Alex Devero -- Web Designer & Developer -- @alexdevero
+
+, modified and adapted by David Ayodele -- Web Designer & Developer -- @dayo
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3
+  jQuery, Modernizr

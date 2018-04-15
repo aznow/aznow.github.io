@@ -1,0 +1,87 @@
+body {
+  background: url(../images/pattern-2.png) left top repeat,
+              url(../images/headers/demo-img--mobile.jpg) center center/cover no-repeat;
+}
+@media screen and (min-width: 768px) {
+  body {
+    background: url(../images/pattern-2.png) left top repeat,
+              url(../images/headers/demo-img--tablet.jpg) center center/cover no-repeat;
+  }
+}
+@media screen and (min-width: 992px) {
+  body {
+    background: url(../images/pattern-2.png) left top repeat,
+              url(../images/headers/demo-img--desktop.jpg) center center/cover no-repeat;
+  }
+}
+@media screen and (min-width: 1400px) {
+  body {
+    background: url(../images/pattern-2.png) left top repeat,
+              url(../images/headers/demo-img--large.jpg) center center/cover no-repeat;
+  }
+}
+@media screen and (min-width: 1900px) {
+  body {
+    background: url(../images/pattern-2.png) left top repeat,
+              url(../images/headers/demo-img--xlarge.jpg) center center/cover no-repeat;
+  }
+}
+.section--demo-1,
+.section--demo-2 {height: 100%;}
+.section--demo-1 {background: rgba(255,255,255,.65);}
+.section--demo-2 .subtitle {color: #fff}
+@media screen and (min-width: 992px) {
+  .section--demo-1 .container,
+  .section--demo-2 .container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+.demo-column {
+  display: block;
+  float: none;
+  margin-bottom: 48px;
+  width: 96%;
+}
+.demo-column img {
+  margin-bottom: 24px;
+  transition: all .35s ease-in-out;
+}
+.demo-column:hover > a > img {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.demo-column:hover .button {
+  background: #231367;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.section--demo-1 .demo-column h5 {color: #333;}
+.section--demo-2 .demo-column h5 {color: #fff;}
+.section--demo-1 .demo-column h6,
+.section--demo-2 .demo-column h6 {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: none;
+}
+.section--demo-1 .demo-column h6 {color: #555;}
+.section--demo-2 .demo-column h6 {color: #fff;}
+.button {text-transform: none !important;}
+
+/* Media Queries */
+@media screen and (min-width: 764px) {
+  .demo-column {
+    display: inline;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 0;
+    margin-left: 2%;
+    width: 46%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .demo-column {width: 16%;}
+}
