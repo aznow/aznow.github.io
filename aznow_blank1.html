@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>AZ NOW PAC Survey</title>
+
+<!-- Bootstrap core CSS -->
+    
+</head>
+
+
+<body id="page-top">
+
+<div class="background-img">
+</div>
+<h1 class="survey_text">
+<a href="https://aznow.org/pac/az-now-pac-endorsement/">
+<img class="circle" src="now-pac-logo-color-small.jpg" width="150" height="150" border="0" alt="AZ NOW PAC"/>
+</a>
+<br>
+Survey temporarily unavailable 
+<br>
+Please check back soon!
+</h1>
+</body>
+
+</html>
+
+
+<style>
+@keyframes blurred-bg {
+  0% {
+    -webkit-filter: blur(0px);
+  }
+  
+  100% {
+    -webkit-filter: blur(4px);
+  }
+}
+
+a {
+    color: transparent;
+}
+
+.survey_text {
+    top: 100px;
+    color:#fff;
+    text-align: center;
+    overflow: auto;
+}
+
+html,body { 
+  margin: 0;
+}
+
+html {
+  background: #FFF;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.background-img {
+  background-image: url('sedona_mtns9.jpg');
+  background-size: cover;
+  background-position: /*bottom*/ center;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  width: calc(100% + 30px);
+  height: calc(100% + 30px);
+  z-index: 1;
+/*   -webkit-filter: blur(4px); */
+    -webkit-animation: blurred-bg 2s 1 forwards; 
+    box-sizing: border-box;
+}
+
+body > *:not(.background-img) {
+  z-index: 5;
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 4px solid #FFF;
+}
+/*
+button {
+  border: 0;
+  padding: 10px 24px;
+  background: rgba(0,150,200,.6);
+  color: white;
+  font-size: 18px;
+  position: absolute !important;
+  right: 1rem;
+  bottom: 1rem;
+}
+*/
+</style>

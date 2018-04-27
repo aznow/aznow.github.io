@@ -1,0 +1,89 @@
+/**
+ * Green Theme
+ */
+a,
+.header .social-links a:focus,
+.header .social-links a:hover,
+.testimonials .flex-direction-nav a:focus,
+.testimonials .flex-direction-nav a:hover,
+.service-item:focus i,
+.service-item:hover i,
+.accordion-button:focus,
+.accordion-button:hover,
+.accordion-button i.fa-arrow-circle-o-down,
+.team-photo .team-social-links a:focus,
+.team-photo .team-social-links a:hover,
+.button-to-top:focus,
+.button-to-top:hover,
+.title,
+.mobile-nav-button:focus,
+.mobile-nav-button:hover,
+.callout-box.co-colored-box h5,
+.header-down-arrow:focus,
+.header-down-arrow:hover,
+.color {color: #2ecc71;}
+.nav .selected,
+.nav a:focus,
+.nav a:hover,
+.nav .current {color: #2ecc71;}
+.button,
+.skillbar-title,
+.skillbar-bar,
+button {background: #2ecc71;}
+.option-set .selected,
+.option-set a:focus,
+.option-set a:hover {border: 1px solid #2ecc71;}
+.button:focus,
+.button:hover,
+.option-set .selected,
+.option-set a:focus,
+.option-set a:hover,
+.skillbar-title:focus,
+.skillbar-title:hover,
+.skillbar-bar:focus,
+.skillbar-bar:hover,
+button:focus,
+button:hover {background: #208e4e;}
+.callout-box.co-colored-box {border-left: 4px solid #2ecc71;}
+.static-testimonial {
+  background: linear-gradient(rgba(46,204,113,.8), rgba(46,204,113,.8)),
+              url(../../images/pattern-2.png) left top repeat,
+              url(../../images/parallax/parallax-bg-5--xlarge.jpg) center center fixed;
+}
+.link-deafult:focus,
+.link-deafult:hover {color: #208e4e;}
+
+/**
+ * Pricing Tbles
+ */
+.price-table .selected {
+  color: #fff;
+  background: #2ecc71;
+}
+.price-table:focus .selected,
+.price-table:hover .selected,
+.price-table:focus .selected:focus,
+.price-table:focus .selected:hover,
+.price-table:hover .selected:focus,
+.price-table:hover .selected:hover,
+.price-table .selected:focus,
+.price-table .selected:hover {
+  color: #fff;
+  background-color: #208e4e;
+}
+.price-table:focus .price-button.selected,
+.price-table:hover .price-button.selected,
+.price-button.selected:focus,
+.price-button.selected:hover {
+  color: #fff;
+  background-color: #208e4e;
+}
+.button-to-top {background-color: #208e4e;}
+.button-to-top:focus,
+.button-to-top:hover {
+  color: #fff;
+  background-color: #2ecc71;
+}
+.price-table .selected:after {border-top-color: #2ecc71;}
+.price-table:focus .selected:after,
+.price-table:hover .selected:after {border-top-color: #208e4e;}
