@@ -5,9 +5,12 @@
 
   Alex Devero -- Web Designer & Developer -- @alexdevero
 
-, modified and adapted by David Ayodele -- Web Designer & Developer -- @dayo
+, modified by David Ayodele
 
 # TECHNOLOGY COLOPHON
 
   HTML5, CSS3
   jQuery, Modernizr
+
+
+State legislature background by azgovernor.gov, https://azgovernor.gov/governor/blog/2017/05/arizona-finds-bipartisan-agreement-many-issues
