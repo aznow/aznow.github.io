@@ -8,7 +8,7 @@
   height: auto;
   text-align: center;
 }
-.row {margin-bottom: 32px;}
+.row {margin-bottom: 2px;}
 .animated {visibility: hidden;}
 .visible {visibility: visible;}
 
