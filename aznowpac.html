@@ -83,10 +83,10 @@
     <!-- Navigation Container -->
     <div class="nav-container">
       <!-- Site Logo -->
-      <a href="aznow.gitlab.io/pac/aznowpac.html" class="site-logo scroll" title="pac logo">
+      <a href="aznowpac.html" class="site-logo scroll" title="pac logo">
       <img src="aznow_pac_logo_4-12-18.png" alt="AZ Legislature" class="img--responsive">
       </a>
-      <a class="site-logo-text scroll" href="page_donate.html">AZNOW PAC</a>
+      <a class="site-logo-text scroll" href="aznowpac.html">AZNOW PAC</a>
       <a class="mobile-nav-button"><i class="fa fa-bars"></i></a>
 
       <!-- Navigation Menu -->
@@ -99,11 +99,11 @@
           <li><a href="https://aznow.org/about-az-now/support-us/" class="scroll link">Join AZNOW</a></li>
           <li><a href="https://aznow.org/calendar/" class="scroll link">Calendar</a></li>
           <li>
-            <a href="https://aznow.gitlab.io/pac/contribute.html" class="scroll link current">Candidates <i class="fa fa-chevron-down"></i></a>
+            <a href="contribute.html" class="scroll link current">Candidates <i class="fa fa-chevron-down"></i></a>
             <ul>
-              <li><a href="https://aznow.gitlab.io/pac/aznow_survey-fed.html">National Questionnaire</a></li>
-              <li><a href="https://aznow.gitlab.io/pac/aznow_survey-loc.html">State/Local Questionnaire</a></li>
-              <li><a href="https://aznow.gitlab.io/pac/aznowpac.html">Endorsement List</a></li>
+              <li><a href="aznow_survey-fed.html">National Questionnaire</a></li>
+              <li><a href="aznow_survey-loc.html">State/Local Questionnaire</a></li>
+              <li><a href="aznowpac.html">Endorsement List</a></li>
             </ul>
           </li><!-- end drop down -->
           <li><a href="#contact-form" class="scroll link">Contact</a></li>
@@ -131,7 +131,7 @@
           <!-- End glass effect -->
           <strong class="post-title" style="font-weight: bold;">Welcome to AZNOW PAC! The following candidates are doing great work and we strongly believe in their ability to move Arizona forward.</strong>
           <ul class="post-meta">
-            <li><i class="fa fa-user"></i> <a href="#">David Ayodele - Committee Chair</a></li>
+            <li><i class="fa fa-user"></i> <a href="mailto:pac@aznow.org?Subject=AZNOW%20PAC%20Inquiry%20">David Ayodele - Committee Chair</a></li>
             <li><i class="fa fa-calendar"></i> 04/14/2018</li>
           </ul><!-- end post meta -->
           
@@ -999,6 +999,13 @@
  */
 
 /* Logo Style */
+
+@media screen and (max-width: 700px) {
+  .site-logo-text {
+    font-size: 24px;
+  }
+}
+
 .site-logo-text {
   position: relative;
   padding-left: 20px;
