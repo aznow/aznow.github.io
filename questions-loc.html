@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<!-- Adapted from Alex Devero: https://alexdevero.com-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AZNOW PAC Contribution</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="handheldFriendly" content="true">
+  <meta name="description" content="Unique One Page HTML Theme built on Bootstrap grid.">
+  <meta name="keywords" content="html template, bootstrap, css, sass, javascript, one page, aznow pac">
+
+  <!--Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon/manifest.json">
+  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+  <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Facebook OpenGraph tags -->
+  <meta property="og:title" content=""><!-- Title of the website -->
+  <meta property="og:type" content="website"><!-- Type of the Facebook OpenGraph tag -->
+  <meta property="og:description" content=""><!-- Desription of the website -->
+  <!--<meta property="og:image" content=""><!-- Your photo -->
+  <meta property="og:url" content=""><!-- URL of website -->
+  <meta property="og:locale" content="en_US"><!-- Default language -->
+  <meta property="og:site_name" content=""><!-- Name of the website -->
+
+  <!-- Twitter cards tags -->
+  <meta name="twitter:card" content="summary"><!-- Type of Twitter card -->
+  <meta name="twitter:creator" content="@AlexDevero"><!-- Your Twitter handler -->
+  <meta name="twitter:title" content=""><!-- Title of the website -->
+  <meta name="twitter:description" content=""><!-- Desription of the website -->
+
+  <!-- Fonts -->
+  <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i">
+  
+	<!-- Priority scripts -->
+	<!-- JQuery library include -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	
+	<!-- Google reCaptcha API script -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	
+	<!-- PHP call script -->
+	<script type="text/javascript">
+	var form=document.getElementById("contactForm");
+	
+	function reCaptcha() {
+	    $.get("recaptcha.php");
+	    return false;
+	}
+	</script>
+	<!--End Priority scripts -->
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/flexslider.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/prettyPhoto.css">
+  <link rel="stylesheet" href="css/player/YTPlayer.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+
+  <!-- Color Options -->
+  <link id="color-options" rel="stylesheet" href="css/colors/red.css">
+
+  <!-- Theme Options -->
+  <link id="theme-options" rel="stylesheet" href="css/theme/light.css">
+
+  <!-- Options Panel Styles (remove me for production) -->
+  <link rel="stylesheet" href="panel/options-panel.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <section id="navigation" class="navigation">
+    <!-- Navigation Container -->
+    <div class="nav-container">
+      <!-- Site Logo -->
+      <a href="aznowpac.html" class="site-logo scroll" title="pac logo">
+      <img src="aznow_pac_logo_4-12-18.png" alt="AZ Legislature" class="img--responsive">
+      </a>
+      <a class="site-logo-text scroll" href="page_donate.html">AZNOW PAC</a>
+      <a class="mobile-nav-button"><i class="fa fa-bars"></i></a>
+      <!-- Navigation Menu -->
+      <div class="nav-menu">
+        <ul class="nav">
+          <li><a href="https://aznow.org/pac" class="scroll link">Home</a></li>
+          <li><a href="#about_the_pac" class="scroll link">About</a></li>
+          <li><a href="https://aznow.org/news" class="scroll link">AZNOW News</a></li>
+          <li><a href="https://nowpac.org" class="scroll link">NOW PAC</a></li>
+          <li><a href="https://aznow.org/about-az-now/support-us/" class="scroll link">Join AZNOW</a></li>
+          <li><a href="https://aznow.org/calendar/" class="scroll link">Calendar</a></li>
+          <li>
+            <a href="contribute.html" class="scroll link current">Candidates <i class="fa fa-chevron-down"></i></a>
+            <ul>
+              <li><a href="aznow_survey-fed.html">National Questionnaire</a></li>
+              <li><a href="aznow_survey-loc.html">State/Local Questionnaire</a></li>
+              <li><a href="aznowpac.html">Endorsement List</a></li>
+            </ul>
+          </li><!-- end drop down -->
+          <li><a href="aznowpac.html#contact-form" class="scroll link">Contact</a></li>
+        </ul>
+      </div><!-- end nav menu -->
+    </div><!-- end nav container -->
+  </section><!-- end navigation section -->
+  
+  <!-- Endorsement Section -->
+  <div class="container">
+  <h2 class="title" style="font-size:24px; font-weight: bold;">2018 Federal Candidate Questionnaire</h2>
+  <h4 class="subtitle"><span style="font-style: uppercase;">To Sumbit your application</span> choose one or more of the following options:</h4>
+  <ul class="form_info">
+  <li>
+  1) Complete and submit this survey online.
+  </li>
+  <li>
+  2) Print and email your completed survey as a pdf to: <a href="mailto:pac@aznow.org?Subject=AZNOW%20PAC%20Inquiry%20">PAC at aznow.org</a>
+  </li>
+  </ul>
+  </div>
+  <!-- Call out box -->
+  <section id="callout-box">
+  <div class="callout-box info-box">
+    <h5>Clean Elections Candidates are those who have opted into the Clean Elections Funding program with the Arizona Secretary of State. Such candidates agree to adhere to certain rules of the Arizona Clean Elections Commission in return for receiving 
+    funding from the Citizens Clean Elections Fund. Clean Elections Candidates can collect $5 Qualifying Contributions during the qualifying period (August 1, 2017 - August 21, 2018). 
+    </h5>
+    <p>Contributions to these canddates must meet the following additional criteria:</p>
+    <p>&bull; Be signed and correctly dated<p>
+    <p>&bull; Be from a contributor registered to vote on the date the contribution form is signed<p>
+    <p>&bull; Be from a contributor registered to vote in the proper district on the date the contribution form is signed</p>
+    <p>For additional information, please reference <a href src="https://www.azcleanelections.gov/run-for-office/how-clean-funding-works">https://www.azcleanelections.gov/run-for-office/how-clean-funding-works</a>
+    </p>
+  </div>
+  </section>
+  <!--end callout box -->
+  <section class="container sub-page"> <!-- begin container -->
+    <div class="row"> <!-- begin container row -->
+      <!-- Begin Main Content -->
+      <div class="col-md-8 main-content">
+        <!-- Begin Blog Post -->
+        <article class="blog-post animated left-align" data-animate="fadeIn" data-animate-delay="300">
+         <!-- Endorsement Section -->
+            <div class="container">
+              <h2 class="form-info">2018 State and Local Endorsements</h2>
+              <div class="row"> <!-- begin outer endorsement table  -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <!-- Endorsement Table -->
+                  <br>
+                  <div class="endorsement-table animated" data-animate="fadeInLeft" data-animate-delay="400">
+                    <h4>State Candidate Questionnaire</h4>
+                    <div class="endorsement-table-container"><!-- begin statewide table container -->
+                    <!-- begin image grid -->
+                      <div class="container_child signup_form">
+                        <form action="#">
+                          <div class="form-group">
+                            <label for="username">Username</label>
+                            <input class="form-control" type="text" name="username" id="username" placeholder="james.bond" required />
+                          </div>
+                          <div class="form-group">
+                            <label for="email">Email</label>
+                            <input class="form-control" type="text" name="email" id="email" placeholder="james.bond@spectre.com" required />
+                          </div>
+                          <div class="form-group">
+                            <label for="password">Password</label>
+                            <input class="form-control" type="password" name="password" id="password" placeholder="********" required />
+                          </div>
+                          <div class="form-group">
+                            <label for="passwordRepeat">Repeat Password</label>
+                            <input class="form-control" type="password" name="passwordRepeat" id="passwordRepeat" placeholder="********" required />
+                          </div>
+                          <div class="m-t-lg">
+                            <center>
+                            <ul class="list-inline">
+                              <li>
+                                <input class="btn btn--form" type="submit" value="Register" />
+                              </li>
+                              <li>
+                                <a class="signup_link" href="#">I am already a member</a>
+                              </li>
+                            </ul>
+                            </center>
+                          </div>
+                        </form>  
+                      </div>
+                   
+                    <!-- end image grid -->
+                    </div><!-- end statewide table container -->
+                    <a href="https://aznow.org/pac/" class="endorsement-button">Contribute to All Statewide Candidates (Funds will be evenly split)</a>
+                  </div><!-- end endorsement table -->
+                </div>
+                <br>
+                </div><!-- end outer endorsement table -->
+                </div>
+                </div>
+              </div><!-- end container row -->
+            </div> <!-- end container -->
+            <!-- End endorsement section -->
+
+        <!-- About the PAC -->
+        <section id="about_the_pac">
+        <div class="about-pac left-align">
+          <div class="row">
+            <div class="col-md-2">
+              <img src="now-pac_logo_150x150.png" alt="Pac Image" class="img--responsive">
+            </div>
+            <div class="col-md-10">
+              <h5>About the PAC</h5>
+              <p>The Arizona National Organization for Women Political Action Committee is associated with the National Organization for Women Political Action Committee (NOWPAC). More information about NOWPAC can be found at nowpac.org</p>
+            </div>
+          </div><!-- and row -->
+        </div>
+        </section>
+      </div><!-- end main column -->
+
+      <!-- Begin Sidebar -->
+      <aside class="col-md-4 sidebar left-align">
+        <!-- Blog Categories -->
+        <section class="sidebar-content">
+          <h4>Useful Links</h4>
+          <ul class="blog-categories">
+            <li><a href="https://nowpac.org/all-federal-candidates-2018/">2018 National Endorsements List</a></li>
+            <li><a href="aznowpac.html#callout-box">Endorsement Process</a></li>
+            <li><a href="https://aznow.org/news">News</a></li>
+            <li><a href="https://aznow.org/about-az-now/support-us/">Support</a></li>
+            <li><a href="https://aznow.org/calendar/">Upcoming Events</a></li>
+          </ul>
+        </section>
+        <section class="sidebar-content">
+          <h4>More Useful Links</h4>
+          <a href="https://aznow.org/contact-us/" class="blog-tag">Social Media</a>
+          <a href="https://www.azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information" class="blog-tag">Register to Vote</a>
+          <a href="https://azredistricting.org/districtlocator/" class="blog-tag">District Locator</a>
+          <a href="https://nowpac.org" class="blog-tag">National NOW PAC</a>
+          <a href="https://salsa.wiredforchange.com/o/5996/p/salsa/donation/common/public/?donate_page_KEY=11136" class="blog-tag">NOW Membership</a>
+          <a href="https://aznow.github.io/aznow_survey-fed.html" class="blog-tag">National Endorsement Questionnaire</a>
+          <a href="https://aznow.github.io/aznow_survey-loc.html" class="blog-tag">State and Local Endorsement Questionnaire</a>
+        </section><!-- end tags -->
+      </aside><!-- end sidebar -->
+    </div><!-- end row -->
+  </section><!-- end page container -->
+
+  <section id="footer-bottom" class="section section--footer-bottom">
+    <div class="container">
+      <h2>AZNOW PAC</h2>
+      <p><span class="">Arizona National Organization for Women Political Action Committee</span><br/>
+      PO Box 32336, Phoenix, AZ 85064<br>
+      Phone: (623) 295-9706<br>
+      Email: <a href="mailto:pac@aznow.org?Subject=AZNOW%20PAC%20Inquiry%20" target="_top">pac at aznow.org</a><br>
+        &copy; 2018 All rights reserved.</p>
+    </div><!-- end container -->
+  </section><!-- end footer bottom section -->
+  
+  <!-- MANY JS (Javascript) Files (Try not to touch!)-->
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery.appear.js"></script>
+  <script type="text/javascript" src="js/jquery.waypoints.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="js/modernizr-custom.js"></script>
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.superslides.js"></script>
+  <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+  <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+  <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="js/jquery.slabtext.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/jquery.fs.tipper.js"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  
+  <!-- Dynamic Text Script ->
+  <script type="text/javascript">
+  const mHTML = document.getElementById('message'),
+  messages = [
+    'view Current 2018 State/Local Endorsements',
+    'visit NOWPAC for 2018 Fedederal Endorsements',
+    'learn about Our Endorsement Process',
+    'learn about AZNOW PAC'
+  ];
+  let currentMessage = 0;
+  function typeMessage() {
+    if (!messages[currentMessage]) {
+      currentMessage = 0;
+    }
+    const currentStr = messages[currentMessage];
+    currentStr.split();
+    let part = '';
+    let currentLetter = 0;
+    let int1 = setInterval(()=>{
+      if (!currentStr[currentLetter]) {
+        currentMessage++;
+        setTimeout(()=>{
+          deleteMessage(part);
+        }, 500);
+        clearInterval(int1);
+      } else {
+        part += currentStr[currentLetter++];
+        mHTML.innerHTML = part;
+      }
+    }, 100);
+  }
+  function deleteMessage(str) {
+    let int = setInterval(()=>{
+      if (str.length === 0) {
+        setTimeout(()=>{
+          typeMessage();
+        }, 500);
+        clearInterval(int);
+      } else {
+        str = str.split('');
+        str.pop();
+        str = str.join('');
+        mHTML.innerHTML = str;
+      }
+    },50);
+  }
+  typeMessage();
+  </script>
+  <!-- End Dynamic Text Script -->
+  
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+  </script>
+</body>
+</html>
+
+<style type="text/css">
+.glass_container {
+  top: -30px;
+  height: 20px;
+  width: 300px;
+  z-index: 0;
+}
+.glass {
+  position: absolute;
+  top: 200px;
+  margin-left: 25%;
+  color: #ffffff;
+  /*
+	margin-left: -20px;
+	
+	
+	height: 200px;
+	width: 550px;
+	*/
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 2;
+	/*vertical-align: middle;*/
+}
+.glass2 {
+  position: absolute;
+  margin-top: -25%;
+  color: #ffffff;
+  /*
+	margin-left: -20px;
+	
+	
+	height: 200px;
+	width: 550px;
+	*/
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 2;
+	/*vertical-align: middle;*/
+}
+
+/* ========= Survey Form ===============*/
+/*adapted from Amy Fu: https://codepen.io/amyfu/pen/oLChg*/
+a, [type="submit"] {
+  transition: all 0.25s ease-in;
+}
+
+.info-box {
+  color: #000;
+}
+
+.callout-box.info-box {
+  border-left: 4px solid;
+  -webkit-border-image: 
+    -webkit-gradient(linear, 0 0, 0 100%, from(#b168ef), to(#9e1c10)) 1 100%;
+  -webkit-border-image: 
+    -webkit-linear-gradient(#b168ef, #9e1c10) 1 100%;
+  -moz-border-image:
+    -moz-linear-gradient(#b168ef, #9e1c10) 1 100%;    
+  -o-border-image:
+    -o-linear-gradient(#b168ef, #9e1c10) 1 100%;
+  border-image: linear-gradient(to bottom, #b168ef, #9e1c10) 1 100%;
+}
+
+.form_info {
+  text-align: left;
+}
+.signup_container {
+  font: 70.72136% "Open Sans", "Roboto", arial, sans-serif;
+  background: #e9e9e9;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  transform: translateY(-50%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+  height: 30rem;
+  border-radius: 0.1875rem;
+  box-shadow: 0px 0.1875rem 0.4375rem rgba(0, 0, 0, .25);
+}
+.signup_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .76);
+}
+.container_child {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: left;
+}
+.signup_thumbnail {
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: url(http://ultraimg.com/images/spectre-login.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.thumbnail_logo, .thumbnail_content, .thumbnail_links {
+  position: relative;
+  z-index: 2;
+}
+.thumbnail_logo {
+  align-self: flex-start;
+}
+.logo_shape {
+  fill: #fff;
+}
+.logo_text {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  vertical-align: bottom;
+}
+.thumbnail_content {
+  align-self: center;
+}
+.signup_container h1, h2 {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1);
+}
+.heading--primary {
+  font-size: 1.999rem;
+}
+.heading--secondary {
+  font-size: 1.414rem;
+}
+.thumbnail_links {
+  align-self: flex-end;
+  width: 100%;
+}
+.thumbnail_links a {
+  font-size: 1rem;
+  color: #fff;
+}
+.thumbnail_links a:focus, .thumbnail_links a:hover {
+  color: rgba(255, 255, 255, .5);
+}
+.signup_form {
+  padding: 2.5rem;
+  background: #fff;
+}
+
+label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #000; 
+  text-align: left;
+}
+.form-control {
+  background-color: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
+.form-control:focus {
+  border-color: #111;
+}
+[type="text"] {
+  color: #111;
+}
+[type="password"] {
+  color: #111;
+}
+.btn--form {
+  padding: 0.5rem 2.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background: #111;
+  border-radius: 2.1875rem;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 200px;
+}
+.btn--form:focus, .btn--form:hover {
+  background: #323232;
+}
+.signup_link {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #999;
+}
+.signup_link:focus, .signup_link:hover {
+  color: #787878;
+}
+
+/*---------------------------------------------*/
+
+/* ========= End Survey Form ===========*/
+
+.orig-color {
+  color: #8835b4;
+}
+
+.orig-color2 {
+  color: #15749d;;
+}
+
+.orig-color-light {
+  color: #d993ff;
+}
+
+.orig-color-dark {
+  color: #641f89;
+}
+
+/**
+ * ========= Navigation Bar =============
+ */
+
+/* Logo Style */
+.site-logo-text {
+  position: relative;
+  padding-left: 20px;
+  top: 30%;
+  font-weight: 700;
+  font-size: 30px;
+  color: #2f2f2f;
+  text-transform: uppercase;
+}
+
+.site-logo {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  top: 1%;
+  float: left;
+  font-size: 32px;
+  font-weight: 400;
+  color: #2f2f2f;
+  text-transform: uppercase;
+}
+.site-logo:hover {color: #111;}
+
+/* Nav Menu */
+.hide-nav {top: -75px;}
+.show-nav {top: 0;}
+.nav .selected,
+.nav .current {color: #311b92;}
+.navigation {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 72px;
+  background: #ecf0f1;
+  transition: all .5s ease-in-out;
+}
+.nav-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+  height: 100%;
+}
+.mobile-nav-button {
+  position: absolute;
+  top: 57%;
+  right: 15px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  color: #2f2f2f;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+}
+.mobile-nav-button:hover {color: #311b92;}
+.nav-menu {
+    position: relative;
+    top: 30%;
+    float: right;
+    height: 125%;
+    padding-right: 50px;
+    line-height: 7px;
+}
+.nav li {
+  position: relative;
+  float: left;
+}
+.nav a {
+  display: block;
+  padding: 8px 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #2f2f2f;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+.nav a:hover {color: #311b92;}
+.nav a:after {
+  padding: 12px;
+  font-weight: 300;
+  color: #6c6c6c;
+  content: "\0399";
+  border-bottom: none;
+}
+.nav li:last-child a:after {
+  padding-right: 0;
+  content: "";
+}
+
+/* Drop Down Navigation */
+.nav i {
+  margin-left: 3px;
+  font-size: 8px;
+  vertical-align: 10%;
+}
+.nav ul {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  z-index: 1;
+  visibility: hidden;
+  margin: 20px 0 0 0;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0, .1);
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+.nav li:hover>ul {
+  visibility: visible;
+  margin: 0;
+  opacity: 1;
+}
+.nav ul li {
+  display: block;
+  float: none;
+}
+.nav ul a {
+  display: block;
+  float: none;
+  padding: 10px;
+  width: 100%;
+  min-width: 150px;
+  white-space: nowrap;
+}
+.nav ul a:after {content: "";}
+.nav ul a:hover {
+  color: #2f2f2f;
+  background: rgba(108,108,108, .3);
+}
+
+/*=========== end Navigation =============== */
+
+a {
+  color: rgba(24, 12, 76, 1);
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgba(24, 12, 76, 1);
+  text-shadow: 1px 1px 1px rgba(24, 12, 76, 0.5);
+}
+/**
+ * Blog
+ */
+.section--blog {background: #f6f6f6}
+.post-preview {
+  text-align: left;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: box-shadow .25s;
+}
+@media screen and (max-width: 62em) {
+  .section--blog .col-md-12:not(:last-child) .post-preview {margin-bottom: 2rem;}
+}
+.post-preview:focus,
+.post-preview:hover {box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+.post-body {
+  padding: 32px;
+}
+.post-title {
+  font-size: 24px;
+  line-height: 32px;
+}
+.post-meta {margin: 8px 0 16px 0;}
+.post-meta li {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+.post-meta li a {color: #6c6c6c;}
+.post-meta li i {margin-right: 4px;}
+.post-img {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  transition: all 300ms linear;
+}
+.post-img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: all 300ms linear;
+}
+.post-img:hover img {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.post-img .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.6)
+  url("plus_just_text_36pt.png") no-repeat center center;
+  transition: all 200ms linear;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+}
+.post-img:hover .mask {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+.post-img h5 {
+  position: absolute;
+  bottom: -100px;
+  z-index: 100;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  transition: all 200ms linear;
+}
+.post-img:hover h5 {
+  bottom: 20px;
+  opacity: 1;
+  transition-delay: 300ms;
+}
+.full-blog-link {
+  display: block;
+  clear: both;
+  padding-top: 48px;
+}
+
+/* Blog Pages */
+article.blog-post {
+  padding-bottom: 0px; /*32*/
+  margin-bottom: 0px;  /*40*/
+  border-bottom: 1px solid rgba(108,108,108, .2);
+}
+.sub-page article.blog-post:last-child {border-bottom: none;}
+section.sidebar-content {margin-bottom: 48px;}
+ul.blog-categories li {border-bottom: 1px solid rgba(108,108,108, .2);}
+ul.blog-categories li a {
+  display: block;
+  padding: 16px 8px;
+  color: #2f2f2f;
+}
+ul.blog-categories li a:before {
+  margin-right: 8px;
+  font-weight: 400;
+  content: "\203A";
+}
+ul.blog-categories li a:hover {
+  color: #fff;
+  background: #2f2f2f;
+}
+a.blog-tag {
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 4px;
+  color: #2f2f2f;
+  background: #ecf0f1;
+  border-radius: 3px;
+}
+a.blog-tag:hover {
+  color: #fff;
+  background: #2f2f2f;
+}
+ul.content-list {margin: 16px;}
+ul.content-list li {padding: 4px;}
+ul.content-list li:before {
+  margin-right: 8px;
+  content: "\203A";
+}
+.about-pac {
+  padding: 0 0 32px 0;
+  border-bottom: 1px solid rgba(108,108,108, .2);
+}
+.comments {padding-top: 32px;}
+ul.comment-list li {
+  position: relative;
+  padding: 32px 0 32px 80px;
+  border-bottom: 1px solid rgba(108,108,108, .2);
+}
+ul.comment-list li:last-child {border-bottom: none;}
+.comment-committee {
+  display: inline-block;
+  margin-right: 8px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+img.comment-avatar {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  width: 64px;
+  height: 64px;
+}
+
+.container {
+  padding-top: 10px; /*64*/
+  padding-bottom: 10px;  /*64*/
+  margin: 0 auto;
+  height: auto;
+  text-align: center;
+}
+
+/* Pattern Header */
+.pattern-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/**
+ * Endorsement Tables
+ */
+.section--pricing {background-color: #f6f6f6;}
+@media screen and (max-width: 62em) {
+  .section--pricing .col-sm-12:not(:last-child) .endorsement-table {margin-bottom: 2rem;}
+}
+.endorsement-table {
+  background: #e8e8e8;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: box-shadow .25s;
+}
+.endorsement-table:focus,
+.endorsement-table:hover {box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+.endorsement-table:hover h4 {background-color: #2f2f2f;}
+.endorsement-table:hover h4:after {border-top-color: #2f2f2f;}
+.endorsement-table:hover .endorsement-button {
+  color: #fff;
+  background: #2f2f2f;
+}
+/*.endorsement-table:hover .selected {color: #612e76;}*/
+.endorsement-table h4 {
+  position: relative;
+  display: block;
+  padding: 16px 0;
+  margin: 0;
+  width: 100%;
+  color: #fff;
+  background: #6c6c6c;/*#2f2f2f*/
+  transition: all .2s;
+}
+.endorsement-table h4:after {
+  /*
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -16px;
+  width: 0;
+  height: 0;
+  content: " ";
+  pointer-events: none;
+  border: solid transparent;
+  border-width: 16px;
+  border-color: rgba(47, 47, 47, 0);
+  border-top-color: #6c6c6c;/*#2f2f2f*/
+  transition: all .35s ease-in-out;
+}
+.endorsement-table-container {padding: 24px;}
+.endorsement {
+  margin: 8px 0 24px 0;
+  font-size: 48px;
+  font-weight: 400;
+}
+.endorsement .dollar {
+  font-size: 24px;
+  font-weight: 400;
+  vertical-align: super;
+}
+.endorsement-table p {font-size: 14px;}
+.endorsement-table ul {margin-top: 16px;}
+.endorsement-table li {
+  padding: 8px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-bottom: 1px dashed #c4c4c4;
+  cursor: default;
+}
+.endorsement-table li:last-child {border-bottom: none;}
+.endorsement-button {
+  display: block;
+  padding: 16px 0;
+  width: 100%;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  background: #6c6c6c;
+  transition: all .35s ease-in-out;
+}
+.endorsement-button:hover {
+  color: #fff;
+  background: #2f2f2f;
+}
+
+/*-----------End of responsive image grid--------------------*
+
+
+/**
+ *========== Footer ================
+ */
+.section--footer-top {background: #f6f6f6;}
+.section--footer-top .social-links {margin-bottom: 24px;}
+.section--footer-top .social-links li {
+  display: inline-block;
+  margin: 0 4px;
+}
+.section--footer-top .social-links a {
+  display: block;
+  padding: 4px 0;
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  background: rgba(47, 47, 47, .4);
+  border-radius: 3px;
+}
+.section--footer-top .social-links a:hover {background: rgba(47, 47, 47, 1);}
+.section--footer-bottom {
+  position: relative;
+  color: #fff;
+  background: #828da0; /*#2f2f2f;*/
+}
+.section--footer-bottom .container {padding: 24px 0;}
+.section--footer-bottom h2 {color: #fff;}
+.button-to-top {
+  position: absolute;
+  top: -29px;
+  left: 50%;
+  display: block;
+  padding: 15px 0;
+  margin-left: -16px;
+  width: 54px;
+  color: #fff;
+  background: #6c6c6c;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.button-to-top:focus,
+.button-to-top:hover {
+  background-color: #929292;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/* ======== Reset.css ==========*/
+
+
+</style>
