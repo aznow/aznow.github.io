@@ -174,7 +174,7 @@ textarea:hover {background: rgba(47,47,47,.1);}
   font-weight: 400;
   color: #fff;
   white-space: nowrap;
-  background: rgba(0, 0, 0, .85);
+  background: rgba(0, 0, 0, .75);
   border-radius: 4px;
 }
 .tipper-content:after {
@@ -189,7 +189,7 @@ textarea:hover {background: rgba(47,47,47,.1);}
   border: solid transparent;
   border-width: 10px;
   border-color: rgba(0, 0, 0, 0);
-  border-top-color: rgba(0, 0, 0, .85);
+  border-top-color: rgba(0, 0, 0, .75);
 }
 
 /**
