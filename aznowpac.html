@@ -554,7 +554,8 @@
         </iframe>
         <center>
         <div class="content">
-          <h4>Contact Us</h4>
+          <h4 class="contact-form-title">Contact Us</h4>
+          <br>
         	<div id="form">
         		<form action="https://docs.google.com/forms/d/e/1FAIpQLSco-_UlPzmkhaH6gNPrKHQKjbWrz6wbaLoKi94rHi_VB7XHJw/formResponse" id="contactForm" method="POST" target="hidden_iframe" onsubmit="return validateFormOnSubmit(this); event.preventDefault();"> <!--onsubmit="submitted=true;" -->
         			<!-- <span>Name</span> -->
@@ -740,6 +741,10 @@
 }
 
 /* ========= Contact Form ===============*/
+
+.contact-form-title {
+  color: #000000;
+}
 .status_msg {
 	color: red;
 	font: 10px, 'Open Sans', Verdana, Helvetica, sans-serif;
