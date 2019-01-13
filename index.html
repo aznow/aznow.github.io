@@ -179,7 +179,6 @@
                     <h4 class="selected">Legislative and Local Candidates</h4>
                     <div class="endorsement-table-container">
                       <ul> <!-- ul stands for unorderd list, this designates the beginning of an unordered list (li stands for list item) -->
-                        
                         <li class="tipped" data-title="girard4azsenate.com"><span class="color">State Senator (LD 8) </span><br><strong><a href="https://girard4azsenate.com" target="_blank" rel="noopener">Sharon Girard</a></strong></li>
                         <li class="tipped" data-title="victoriasteeleforsenate.com/"><span class="color">State Senator (LD 9) </span><br><strong><a href="http://victoriasteeleforsenate.com/" target="_blank" rel="noopener">Victoria Steele</a></strong></li>
                         <li class="tipped" data-title="facebook.com/Morgaine4LD5/"><span class="color">State Senator (LD 17) </span><br><strong><a href="https://www.facebook.com/Morgaine4LD5/" target="_blank" rel="noopener">J'aime Morgaine</a></strong></li>
@@ -189,6 +188,7 @@
                         <li class="tipped" data-title="facebook.com/S2Representative/"><span class="color">State Representative (LD 1) </span><br><strong><a href="https://www.facebook.com/S2Representative/" target="_blank" rel="noopener">Stephanie Snyder</a></strong></li>
                         <li class="tipped" data-title="tyler4ruralaz.nationbuilder.com"><span class="color">State Representative (LD 6) </span><br><strong><a href="http://tyler4ruralaz.nationbuilder.com" target="_blank" rel="noopener">Bobby Tyler</a></strong></li>
                         <li class="tipped" data-title="www.feliciafrench.com"><span class="color">State Representative (LD 6) </span><br><strong><a href="https://www.feliciafrench.com" target="_blank" rel="noopener">Felicia French</a></strong></li>
+                        
                         <li class="tipped" data-title="www.drfrieseforhouse.com"><span class="color">State Representative (LD 9) </span><br><strong><a href="http://www.drfrieseforhouse.com" target="_blank" rel="noopener">Randall "Randy" Friese</a></strong></li>
                         <li class="tipped" data-title="powersforthepeople.net"><span class="color">State Representative (LD 9) </span><br><strong><a href="https://powersforthepeople.net" target="_blank" rel="noopener">Pamela Powers-Hannley</a></strong></li>
                         <li class="tipped" data-title="lyonforaz.com/"><span class="color">State Representative (LD 11) </span><br><strong><a href="https://www.lyonforaz.com/" target="_blank" rel="noopener">Hollace Lyon</a></strong></li>
@@ -387,9 +387,12 @@
       			type: "POST",
       			data: "name=" + name + "&g-recaptcha-response=" + grecaptcha.getResponse(),
       			success: function(data) {
-      				str = data;
-      				console.log(data);
-      				n = str.indexOf("[success] => 1");
+      				//str = data;
+      				//console.log(data);
+      				//n = str.indexOf("[success] => 1");
+      				str = grecaptcha.getResponse();
+  		  			console.log(grecaptcha.getResponse());
+  		  			n = str.indexOf("03A");
       				$("#status_msg").addClass( "successMessage" );
     			    $("#status_msg").innerHTML = "Captcha check complete!";
       				document.getElementById("status_msg").innerHTML = "Captcha check complete!";
@@ -434,9 +437,13 @@
       			type: "POST",
       			data: "name=" + name + "&g-recaptcha-response=" + grecaptcha.getResponse(),
       			success: function(data) {
-      				str = data;
-      				console.log(data);
-      				n = str.indexOf("[success] => 1");
+      				//str = data;
+      				//console.log(data);
+      				//n = str.indexOf("[success] => 1");
+      				str = grecaptcha.getResponse();
+  		  			console.log(grecaptcha.getResponse());
+  		  			//document.getElementById("status_msg").innerHTML = n;
+  		  			n = str.indexOf("03A");
     	  			if (n >= 0) {
     	  				if ($(".status_msg")[0]){
     					    // Do something if class exists
